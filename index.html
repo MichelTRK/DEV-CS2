@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS Lobby - Sorteio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>CS2 CAPIMIX</h1>
+
+  <section>
+    <h2>Digite os jogadores (1 por linha)</h2>
+    <textarea id="playersInput" placeholder="Ex:
+João
+Pedro
+Lucas
+Felipe"></textarea>
+    <br>
+    <button id="btnSortearTimes">Sortear Times</button>
+    <button id="btnSortearMapa">Sortear Mapa</button>
+
+    <div class="times">
+      <div class="time-box">
+        <h3>🔵 Time 1</h3>
+        <ul id="time1"></ul>
+      </div>
+
+      <div class="time-box">
+        <h3>🔴 Time 2</h3>
+        <ul id="time2"></ul>
+      </div>
+    </div>
+
+    <div class="mapa-resultado" id="mapaResultado">🗺️ Mapa: --</div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
