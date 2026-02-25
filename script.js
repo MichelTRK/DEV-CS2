@@ -12,7 +12,6 @@ const mapas = [
   "Inferno",
   "Nuke",
   "Overpass",
-  "Vertigo",
   "Ancient"
 ];
 
